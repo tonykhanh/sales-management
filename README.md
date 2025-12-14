@@ -178,6 +178,22 @@ Website-sales-management/
 - Xóa cookies và cache trình duyệt / Clear browser cookies and cache
 - Kiểm tra cấu hình session trong php.ini / Check session configuration in php.ini
 
+## ☁️ Deploy to InfinityFree
+
+Dự án này đã được cấu hình tối ưu để chạy trên **InfinityFree** (hoặc các Shared Hosting tương tự).
+This project is optimized for deployment on **InfinityFree** (or similar Shared Hosting).
+
+1. **Upload Code:**
+   - Upload toàn bộ nội dung trong thư mục `homepage` vào `htdocs` trên server.
+   
+2. **Setup Database:**
+   - Tạo database trên hosting.
+   - Import file `webbanhang_infinityfree.sql`.
+
+3. **Configure:**
+   - Hệ thống tự động nhận diện môi trường (Local/Hosting) thông qua file `admin/php/db_connect.php`, không cần sửa code thủ công.
+   - The system automatically detects the environment (Local/Hosting) via `admin/php/db_connect.php`, no manual code changes needed.
+
 ## 📝 Giấy Phép / License
 
 Dự án này được phát triển cho mục đích học tập và nghiên cứu.
@@ -187,7 +203,7 @@ This project is developed for educational and research purposes.
 ## 👨‍💻 Tác Giả / Author
 
 **Tony Khanh**
-- GitHub: [@KenTyler1](https://github.com/KenTyler1)
+- GitHub: [@tonykhanh](https://github.com/tonykhanh)
 
 ## 🤝 Đóng Góp / Contributing
 
